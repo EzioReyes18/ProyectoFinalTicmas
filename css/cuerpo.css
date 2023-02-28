@@ -1,0 +1,66 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+section {
+  background-color: rgb(15, 15, 15);
+}
+
+main {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    overflow:hidden;
+}
+
+main article {
+  padding:50px;
+}
+
+h1,h2,h3 {
+  font-family: Arial, sans-serif;
+  font-size: 16;
+  color: white;
+  background-color: rgb(15, 15, 15);
+  text-align: center;
+  padding:20px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  color: black;
+  text-align-last: left;
+  padding:10px;
+  padding-left:10px;
+}
+
+img {
+    padding: 10px;
+    object-fit: cover;
+}
+
+aside {
+    background-color: rgb(30, 30, 30);
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+}
+
+aside span {
+    padding-right: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 20px solid black;
+}
